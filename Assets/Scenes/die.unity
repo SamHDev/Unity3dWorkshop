@@ -264,7 +264,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3219994bb239547dcb32d97dfa373115, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelName: 
+  levelName: Maze
 --- !u!114 &1555691308
 MonoBehaviour:
   m_ObjectHideFlags: 0
