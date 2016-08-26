@@ -15,7 +15,7 @@ public class FirstPersonDie : MonoBehaviour {
 
     public void Die(){
         body.constraints = RigidbodyConstraints.None;
-        body.AddRelativeTorque( Random.onUnitSphere );
+        body.AddRelativeTorque( 5*Random.onUnitSphere );
         OnDieEvent.Invoke();
     }
 }
